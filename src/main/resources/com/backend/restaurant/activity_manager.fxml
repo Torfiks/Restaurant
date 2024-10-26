@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane prefHeight="378.0" prefWidth="585.0" style="-fx-background-color: #f5f5f5; -fx-padding: 20; -fx-hgap: 20; -fx-vgap: 20;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.backend.restaurant.controllers.ActivityManagerController">
+
+    <Pane style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-padding: 20;" GridPane.columnIndex="0">
+        <Button layoutX="72.0" layoutY="69.0" mnemonicParsing="false" onAction="#showAllTables" prefHeight="50.0" prefWidth="100.0" style="-fx-font-size: 16pt; -fx-background-color: #2196F3; -fx-text-fill: white;" text="Tables" />
+    </Pane>
+
+    <Pane style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-padding: 20;" GridPane.rowIndex="1">
+        <Button layoutX="52.0" layoutY="40.0" mnemonicParsing="false" onAction="#showSale" prefHeight="50.0" prefWidth="100.0" style="-fx-font-size: 16pt; -fx-background-color: #FF5722; -fx-text-fill: white;" text="Sales" />
+    </Pane>
+
+    <Pane style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-padding: 20;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+    <Button alignment="CENTER" layoutX="82.0" layoutY="40.0" mnemonicParsing="false" onAction="#showAdminHome" prefHeight="50.0" prefWidth="100.0" style="-fx-font-size: 16pt; -fx-background-color: #9C27B0; -fx-text-fill: white;" text="Admin" textAlignment="CENTER" />
+    </Pane>
+</GridPane>

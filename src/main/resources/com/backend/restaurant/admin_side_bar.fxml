@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.backend.restaurant.controllers.AdminSidebarController">
+   <Button mnemonicParsing="false" onAction="#showAdminUserPanel" prefHeight="27.0" prefWidth="150.0" text="Users" />
+   <Button mnemonicParsing="false" onAction="#showAdminTablePanel" prefHeight="27.0" prefWidth="150.0" text="Tables" />
+   <Button mnemonicParsing="false" onAction="#showAdminDishPanel" prefHeight="27.0" prefWidth="150.0" text="Dishes" />
+<!--   <Button mnemonicParsing="false" onAction="#showAdminTodaySale" prefHeight="27.0" prefWidth="150.0" text="Today Sale" />-->
+   <Button mnemonicParsing="false" onAction="#showAdminSaleHistoryPanel" prefWidth="150.0" text="Sale History" />
+</VBox>
